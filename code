@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Browser in Browser Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="browser-window">
+    <div class="browser-bar">
+      <span class="circle red"></span>
+      <span class="circle yellow"></span>
+      <span class="circle green"></span>
+      <input type="text" id="url-input" placeholder="Enter URL..." value="https://example.com" />
+      <button id="go-btn">Go</button>
+    </div>
+    <iframe id="bib-iframe" src="https://example.com"></iframe>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
